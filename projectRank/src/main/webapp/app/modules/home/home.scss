@@ -1,0 +1,198 @@
+/* ==========================================================================
+Main page styles
+========================================================================== */
+
+
+.hipster {
+  display: inline-block;
+  width: 100%;
+  height: 497px;
+  background: url('/content/images/jhipster_family_member_3.svg') no-repeat center top;
+  background-size: contain;
+}
+/* home.scss */
+
+/* Overall styling for the Home component */
+.home-container {
+  //max-width: 800px;
+  ///margin: 0 auto;   /* Center the content */
+  width: 100%;
+  padding: 20px;
+  text-align: left;
+  height: auto;
+
+
+}
+body, html {
+  margin: 0;
+  min-height:  99%;
+  font-family: "Anton", sans-serif;
+}
+html {
+  overflow-x: initial !important;
+}
+.home-title {
+  color: #333; /* Set title color */
+  font-size: 100px;
+}
+
+.elo-section-description {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 50px;
+  width : 40%
+}
+
+.post-section-description {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 20px;
+  text-align: right;
+  padding-right: 50px;
+  width : 40%
+}
+
+.post-section-header{
+  color: #555;      /* Set section header color */
+  //border-bottom: 1px solid #ddd; /* Add a subtle border under section headers */
+  padding-bottom: 10px;
+  margin-top: 20px;
+  font-size: 40px;
+  text-align: right;
+  padding-left: 50px;
+}
+
+
+
+
+/* Styling for section headers (Elo Ranking, Post Ranking) */
+.elo-Section-Header {
+  color: #555;      /* Set section header color */
+  //border-bottom: 1px solid #ddd; /* Add a subtle border under section headers */
+  padding-bottom: 10px;
+  margin-top: 20px;
+  font-size: 40px;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.section-Container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.PageContent{
+  padding-left: 100px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+}
+
+.Page-container{
+  display: inline-block ;
+  color: white;
+  background-color: #212529;
+  height: 98vh;
+  width: 100%;
+  overflow-y: hidden;
+  padding-left: 0px;
+  padding-top: 150px;
+  align-content: flex-start;
+  vertical-align: top;
+  align-items: flex-start;
+}
+
+.link-to-Post{
+  border: 10px;
+  width:200px;
+  height: 50px;
+
+
+}
+
+.link-to-Leaderboard  {
+  background-color: blueviolet;
+
+  border: 20px;
+  width: auto;
+  padding: 4px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  margin-left: 40%;
+
+}
+
+.link-to-Leaderboard:hover{
+  background-color: purple;
+  transition: 0.3s;
+}
+
+
+.link-to-Post  {
+  background-color: #0d6efd;
+  border: 20px;
+  width: auto;
+  padding: 4px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.link-to-Post:hover {
+  background-color: lightskyblue;
+  transition: 0.2s;
+}
+
+//// restyling
+.main-title{
+  text-align: left;
+  background-color: #212529;
+  padding-left: 200px;
+  padding-top: 100px;
+  font-family: 'Anton', sans-serif;
+}
+
+.body-homepage {
+  font-family: "Anton", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  overflow-y: hidden;
+ /// height: 100%;
+}
+@font-face{
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+
+.section {
+
+  background-color: transparent;
+  color: white;
+  padding-left: 50px;
+  margin: 20px;
+  height: 250px;
+  border-radius: 8px;
+  width: 40%;
+  align-items: center;
+  align-content: center;
+  text-align: left;
+  padding-top: 40px;
+  outline: #009cd8 2px solid;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+
+.section__title {
+  color: white;
+
+
+
+}
+

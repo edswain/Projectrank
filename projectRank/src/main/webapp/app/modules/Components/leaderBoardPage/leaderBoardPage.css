@@ -1,0 +1,38 @@
+
+
+.spanname {
+  display: inline;
+  float: left;
+  height: 100px;
+  width: 50%;
+}
+.item{
+  border-radius: 10px;
+  margin-left:auto   ;
+  margin-right: auto;
+  border: 1px solid black;
+  background-color: whitesmoke;
+
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  align-items: center;
+  align-content: center;
+}
+.leaderBoard{
+  align-items: center;
+  text-align: center;
+  background-color: #212529;
+  color: white;
+
+
+}
+
+.board{
+  background-color: #212529;
+
+  justify-content: center;
+
+
+}

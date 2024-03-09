@@ -1,0 +1,32 @@
+{
+  "annotations": {
+    "changelogDate": "20240109170221"
+  },
+  "dto": "no",
+  "entityTableName": "likes",
+  "fields": [],
+  "jpaMetamodelFiltering": false,
+  "name": "Likes",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "id",
+      "otherEntityName": "post",
+      "otherEntityRelationshipName": "likes",
+      "relationshipName": "postliked",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "id",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "postsliked",
+      "relationshipName": "likedby",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
